@@ -1,0 +1,73 @@
+html {
+	height: 100vh;
+	font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px) / (1600 - 300)));
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	color: #202529;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+	height: 100vh;
+}
+
+.app {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.app__content {
+	height: 100%;
+	max-width: 1200px;
+	align-self: center;
+	overflow: auto;
+	-ms-overflow-style: none;
+}
+
+.app__content::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@media (min-width: 0) {
+	.app__content {
+		width: 90%;
+	}
+}
+
+@media (min-width: 48rem) {
+	.app__content {
+		width: 40rem;
+		padding: 0;
+	}
+}
+
+@media (min-width: 64rem) {
+	.app__content {
+		width: 48rem;
+		padding: 0;
+	}
+}
+
+@media (min-width: 75rem) {
+	.app__content {
+		width: 64rem;
+		padding: 0;
+	}
+}
+@media (min-width: 85.325rem) {
+	.app__content {
+		width: 75rem;
+		padding: 0;
+	}
+}

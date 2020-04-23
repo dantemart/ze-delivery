@@ -1,0 +1,6 @@
+.row__items {
+	display: flex;
+	justify-content: flex-start;
+	overflow: auto;
+	padding: 0.4rem;
+}
